@@ -35,6 +35,7 @@ lazy val scalatestVersion = "3.0.0"
 
 lazy val cirveVersion = "0.5.1"
 
+
 libraryDependencies ++= {
   Seq(
     "org.tpolecat"       %%  "doobie-core"               % doobieVersion,
@@ -45,10 +46,10 @@ libraryDependencies ++= {
     "org.http4s"         %% "http4s-circe"               % http4sVersion,
 
     "io.circe"           %% "circe-core"                 % cirveVersion,
-    "io.circe"           %% "circe-generic" % cirveVersion,
-    "io.circe"           %% "circe-parser" % cirveVersion,
+    "io.circe"           %% "circe-generic"              % cirveVersion,
+    "io.circe"           %% "circe-parser"               % cirveVersion,
 
-
+    "mysql"               % "mysql-connector-java"       % "5.1.39",
      "ch.qos.logback"     % "logback-classic"            % "1.1.7",
 
 
