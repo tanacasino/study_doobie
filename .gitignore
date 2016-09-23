@@ -1,0 +1,18 @@
+# sbt
+/target
+/project/target
+/project/project
+
+# Eclipse
+.cache-*
+.classpath
+.project
+.settings
+
+# Intellij IDEA
+.idea
+.idea_modules
+
+# Mac
+.DS_Store
+
